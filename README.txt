@@ -10,7 +10,10 @@ This project uses:
 # HTML5 for frontend
 
 Files to watch:
-# index.jsp (View)
-# struts-config.xml (Supposed to be the controller)
-# Insert, Extract and Home java source files for insertion and extraction of data
+# web/index.jsp (View)
+# web/*.xml (Data storage files)
+# web/WEB-INF/struts-config.xml (Supposed to be the controller)
+# src/java/lolcat.properties for static values used in the views
+# src/java/cat folder for Insert.java, Extract.java, Home.java
+#
 
