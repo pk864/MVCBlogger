@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<article>
+    <element>
+        <id>1</id>
+        <username>atm</username>
+        <title>Hello world</title>
+        <content>
+            I am just going to be slacking off till this site completely takes off.
+            GlassFish does kinda suck. Slow stuff.
+        </content>
+        <date>
+            <day>29</day>
+            <month>3</month>
+            <year>2012</year>
+        </date>
+    </element>
+    <element>
+        <id>2</id>
+        <username>atm</username>
+        <title>A real haiku</title>
+        <content>
+            A sweet cherry pie,
+            And a Good day buscuit,
+            Makes my day.
+        
+            Not a real haiku.
+        </content>
+    </element>
+    <element>
+        <id>3</id>
+        <username>tanvi</username>
+        <title>Kya pak raha hai :(</title>
+        <content>Chubby kya masti karti hai, pata hai kya? :P&#13;
+            Plus, mujhe bohot pak raha hai. Likhne ko bhi :(
+        </content>
+        <date>
+            <day>30</day>
+            <month>2</month>
+            <year>12</year>
+        </date>
+    </element>
+    <element>
+        <id>4</id>
+        <username>denil</username>
+        <title>Tiffin me kya hai?</title>
+        <content>Please open your tiffin. I am hungry.&#13;
+            Plus, give me a writeup.&#13;
+&#13;
+            Denil: Have you heard Orion? It's such a melodious song. Especially the bass.&#13;
+            Anuj: Overrated shit.
+        </content>
+        <date>
+            <day>30</day>
+            <month>2</month>
+            <year>12</year>
+        </date>
+    </element>
+    <element>
+        <id>5</id>
+        <username>admin</username>
+        <title>Admin writing this post</title>
+        <content>Mwhahahahahaha.</content>
+        <date>30/2/12</date>
+    </element>
+    <element>
+        <id>6</id>
+        <username>atm</username>
+        <title>This is a test post!</title>
+        <content>And it looks like the final presentation!</content>
+        <date>30/2/12</date>
+    </element>
+    <element>
+        <id>7</id>
+        <username>surmila</username>
+        <title>I love this project!</title>
+        <content>Anuj did it in three days?&#13;
+            Can't believe it!!!&#13;
+&#13;
+            (Because I thought of it already)
+        </content>
+        <date>30/2/12</date>
+    </element>
+</article>

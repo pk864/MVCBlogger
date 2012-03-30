@@ -1,0 +1,40 @@
+<logic:notPresent name="org.apache.struts.action.MESSAGE" scope="application">
+<div style="color: red">
+    ERROR:  Application resources not loaded -- check servlet container logs for error messages.
+</div>
+</logic:notPresent>
+        
+<center>
+    <h1><bean:message key="blog.heading"/></h1>
+    <p><bean:message key="blog.message"/></p>
+    <ol id="nav">
+        <li><a href="?p=home">Home </a></li>
+        <li><a href="?p=user">User accounts </a></li>
+        <li><a href="?p=blogpost">Blog post</a></li>
+        <li><a href="?p=about">About</a></li>
+        <%
+            //Only show logout button if the user is logged in
+            boolean logged = false;
+
+            Cookie cookies[] = request.getCookies ();
+            Cookie myCookie = null;
+            if (cookies != null)
+            {
+                for (int i = 0; i < cookies.length; i++) 
+                {
+                    if (cookies[i].getName().equals("username"))
+                    {
+                        myCookie = cookies[i];
+                        logged = true;
+                        break;
+                    }
+                }
+            }
+            
+            if (logged)
+            {
+                out.println("<li id=\"logged\"><a href=\"?p=logout\">Logout " + myCookie.getValue() + "</a></li>");
+            }
+        %>
+    </ol>
+</center>

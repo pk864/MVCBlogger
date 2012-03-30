@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<user>
+    <element>
+        <username>atm</username>
+        <password>atm</password>
+        <email>anujmorex@gmail.com</email>
+    </element>
+    
+    <element>
+        <username>admin</username>
+        <password>admin</password>
+        <email>admin@admin</email>
+    </element>
+    
+    <element>
+        <username>tanvi</username>
+        <password>kya_pak_raha_hai_:(</password>
+        <email>tanvi@tanvi</email>
+    </element>
+    <element>
+        <username>vauly</username>
+        <password>vauly</password>
+        <email>vaulstein@gmail.com</email>
+    </element>
+    <element>
+        <username>denil</username>
+        <password>denil</password>
+        <email>denilparmar@gmail.com</email>
+    </element>
+
+<element>
+<username>surmila</username>
+<password>pmrc</password>
+<email>surmila@unix</email>
+</element>
+</user>
